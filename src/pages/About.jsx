@@ -18,7 +18,7 @@ function About() {
             <img src={waves} alt="Waves" />
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center h-screen bg-[#01b9ff]">
+        <div className="flex flex-col items-center justify-center w-screen h-screen bg-[#01b9ff]">
           <h1 className="text-white text-4xl font-bold mb-4">Seabooks</h1>
           <p className="text-white text-lg text-center max-w-xl">
             Welcome to Seabooks, a user-friendly book management website in the

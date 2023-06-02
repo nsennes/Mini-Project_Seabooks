@@ -5,6 +5,8 @@ import App from './App';
 import About from './pages/About';
 import SignUp from './pages/SignUp';
 import Home from './pages/Home';
+import Login from "./pages/Login";
+import MyLibrary from './pages/MyLibrary';
 import 'flowbite';
 import 'tw-elements';
 import {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "home",
     element: <Home/>,
+  },
+  {
+    path: "login",
+    element: <Login/>,
+  },
+  {
+    path: "mylibrary",
+    element: <MyLibrary/>,
   },
 ]);
 
