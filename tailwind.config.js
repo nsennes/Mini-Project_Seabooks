@@ -6,6 +6,8 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
+    fontFamily: {
+    },
     extend: {},
   },
   plugins: [
@@ -14,7 +16,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'navbar': '#ffffff'
+      'navbar': '#ffffff',
+      'text': "#484848"
     }
   }
 }
