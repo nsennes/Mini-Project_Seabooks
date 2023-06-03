@@ -34,5 +34,8 @@ app.use(bodyParser.json({ type: "application/json" }));
 app.listen(port, () => {
   console.log("App is running at port " + port);
 });
+<<<<<<< HEAD
 
 app.delete("/delete", require("./routes/endpoint_delete"));
+=======
+>>>>>>> 1a95b4b495be0fd2aee39928ade9457980681ead
